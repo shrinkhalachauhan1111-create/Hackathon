@@ -1,11 +1,77 @@
-**/.venv/
-**/__pycache__/
-**/.env
-**/.env.*
-!**/.env.example
-**/node_modules/
-**/dist/
-**/*.db
-**/*.db-shm
-**/*.db-wal
+# =========================
+# Frontend
+# =========================
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.local
+frontend/.env.development
+frontend/.env.production
+
+# Keep example env files
+!frontend/.env.example
+
+
+# =========================
+# Backend
+# =========================
+backend/.venv/
+backend/venv/
+backend/env/
+backend/.env
+backend/.env.local
+
+# Keep example env files
+!backend/.env.example
+
+backend/__pycache__/
+backend/**/*.pyc
+backend/**/*.pyo
+backend/**/*.pyd
+
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+
+
+# =========================
+# Local databases
+# =========================
+*.db
+*.sqlite
+*.sqlite3
+
+
+# =========================
+# Logs
+# =========================
+*.log
+
+
+# =========================
+# OS files
+# =========================
 .DS_Store
+Thumbs.db
+desktop.ini
+
+
+# =========================
+# VS Code / IDE
+# =========================
+.vscode/
+.idea/
+
+
+# =========================
+# Misc
+# =========================
+*.tmp
+*.temp
