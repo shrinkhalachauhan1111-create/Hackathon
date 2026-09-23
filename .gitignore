@@ -1,0 +1,18 @@
+# Frontend
+frontend/node_modules/
+frontend/.env
+
+# Backend
+backend/.venv/
+backend/__pycache__/
+backend/.env
+
+# Python
+*.pyc
+__pycache__/
+
+# Local database
+*.db
+
+# Mac
+.DS_Store
